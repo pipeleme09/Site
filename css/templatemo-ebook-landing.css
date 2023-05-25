@@ -865,9 +865,7 @@ strong {
 .custom-form .form-control:hover {
   border-color: var(--primary-color);
 }
-
-.custom-form .form-control:focus + .input-group-text .custom-form-icon,
-.custom-form .form-control:hover + .input-group-text .custom-form-icon {
+{
   opacity: 1;
 }
 
@@ -889,7 +887,7 @@ strong {
   transition: opacity 0.3s ease;
 }
 
-.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control, .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select, .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+
   border-radius: var(--border-radius-large);
 }
 
